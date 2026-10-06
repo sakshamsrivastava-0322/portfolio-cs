@@ -1,85 +1,62 @@
-# CS Student Portfolio - Customization & Deployment Guide
+# Saksham Srivastava - Personal Portfolio
 
-This is a premium, cyber-dark style single-page portfolio website designed specifically for Computer Science students. It features responsive layouts, a floating canvas particle background, customized typing loops, and a custom mouse trail cursor.
+A sleek, responsive, single-page personal portfolio blog built for my 3rd semester B.Tech Computer Science Engineering Portfolio Building Activity.
 
----
+![Portfolio Preview](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Stack](https://img.shields.io/badge/Tech_Stack-HTML5_%7C_CSS3_%7C_JavaScript-orange?style=for-the-badge)
 
-## 🛠️ How to Customize Your Portfolio
+## 📌 Live Demo
 
-### 1. Edit Text and Information
-Open `index.html` in your editor. We have marked sections with `<!-- EDIT HERE -->` and `<!-- EDITABLE SECTION -->` comments.
-- **SEO Title & Metadata**: Update lines 7–11 with your name and description.
-- **Logo**: Update line 28 with your initials.
-- **Hero & About Bio**: Update lines 48–60 (Hero Intro) and lines 86–105 (About Me profile summary).
-- **Contact Details**: Update lines 231–254 with your email address, city, and social media profile handles.
-
-### 2. Customize the Typing Words (Hero Section)
-Open `script.js` in your editor.
-- Locate line **137**:
-  ```javascript
-  const textArray = ["First-Year CS Student", "Creative Developer", "Problem Solver", "Tech Enthusiast"];
-  ```
-- Change these strings to whatever roles or skills you'd like to display!
-
-### 3. Replace Images
-Open the `assets/` directory.
-- **Profile Avatar**: Replace `assets/avatar.png` with a picture of yourself. (Make sure to save it as `avatar.png` or update the `<img src="assets/avatar.png">` path in `index.html`).
-- **Project Previews**: Replace `assets/project1.png` and `assets/project2.png` with screenshots of your own projects.
+🌐 **Website URL:** [https://sakshamsrivastava-0322.github.io/portfolio-cs/](https://sakshamsrivastava-0322.github.io/portfolio-cs/)
 
 ---
 
-## 🚀 How to Host Your Real Website (Free Production Hosting)
+## 👨‍💻 About Me
 
-To share your website with recruiters, friends, and peers, you can host it on the internet for free using any of the following standard approaches:
+I am a **3rd Semester B.Tech Computer Science Engineering** student at **REVA University, Bengaluru**. I am passionate about software engineering, logic building, Data Structures & Algorithms (DSA), and building practical software projects to solve real-world problems.
 
-### Method A: GitHub Pages (Recommended for CS Students)
-This is the best method because it links directly to your code repository and updates automatically whenever you commit changes.
-
-1. **Initialize Git & Commit locally**:
-   Open a terminal in the `cs-student-portfolio` folder and run:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: portfolio template"
-   ```
-2. **Create a GitHub Repository**:
-   - Go to [GitHub](https://github.com) and sign in.
-   - Create a new repository named `portfolio` (public).
-   - Copy the repository remote commands and run them in your terminal:
-     ```bash
-     git remote add origin https://github.com/<your-username>/portfolio.git
-     git branch -M main
-     git push -u origin main
-     ```
-3. **Enable GitHub Pages**:
-   - Go to your repository settings on GitHub.
-   - In the sidebar, select **Pages**.
-   - Under **Build and deployment -> Source**, select **Deploy from a branch**.
-   - Choose the `main` branch and `/ (root)` folder, then click **Save**.
-   - Your site will be live at `https://<your-username>.github.io/portfolio/` in a few minutes!
+- 🎓 **Degree:** B.Tech Computer Science Engineering (3rd Semester)
+- 🏫 **University:** REVA University
+- 📍 **Location:** Bengaluru, India
+- 📧 **Email:** [sakshamsrivastava0322@gmail.com](mailto:sakshamsrivastava0322@gmail.com)
+- 🔗 **LinkedIn:** [Saksham Srivastava](https://www.linkedin.com/in/saksham-srivastava-078b39383)
+- 💻 **GitHub:** [@sakshamsrivastava-0322](https://github.com/sakshamsrivastava-0322)
 
 ---
 
-### Method B: Netlify Drag & Drop (Zero Commands, Easiest)
-If you don't want to use command line tools, you can upload the folder directly.
+## 🚀 Key Sections Included
 
-1. Go to [Netlify Drop](https://app.netlify.com/drop).
-2. Simply **drag and drop** your entire `cs-student-portfolio` folder into the upload box on the web page.
-3. Netlify will compile it and give you a live production URL (e.g. `https://your-site.netlify.app`) in 5 seconds!
-4. You can change the subdomain or connect a custom domain in your Netlify settings.
+1. **Hero Section:** Student intro, tagline, GitHub & LinkedIn quick access, interactive terminal code widget.
+2. **About Section:** Academic profile, background, current university focus, and interest areas.
+3. **Featured Coursework & Projects:**
+   - **Hello World Repository:** Initial Git & GitHub workflow project.
+   - **Pair Programming Activity:** Collaborative coding and joint development log documentation.
+   - **LeetCode Solutions:** Algorithmic problem-solving notes, practice solutions, and progress tracking.
+4. **Skills & Capabilities:** Core languages (C, Python), tools (Git, GitHub, Web Basics), and current learning focus (DSA, OOP).
+5. **Learning & Career Goals:** Clear roadmap focused on core fundamentals, practical projects, and future interests in AI/ML & Cloud.
+6. **Contact & Footer:** Direct email link, social profiles, and responsive navigation footer.
 
 ---
 
-### Method C: Vercel CLI (Super Fast)
-You can deploy directly using Vercel from your command line:
+## 🛠️ Built With
 
-1. Open your terminal in the `cs-student-portfolio` directory and run:
-   ```bash
-   npx vercel
-   ```
-2. Follow the prompts (log in/sign up if you haven't, link a new project, select default settings).
-3. In a few seconds, it will give you a live URL (`https://your-project.vercel.app`).
-4. To deploy updates in the future, run:
-   ```bash
-   npx vercel --prod
-   ```
+- **Structure & Logic:** HTML5 & JavaScript (Vanilla ES6)
+- **Styling:** CSS3 (Modern Flexbox/Grid layout, custom keyframes, glassmorphism navbar, ambient background glow)
+- **Icons & Fonts:** Inline SVGs, Google Fonts (Inter, Outfit, Fira Code)
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio-cs/
+├── index.html        # Self-contained portfolio single page (HTML, CSS, JS)
+└── README.md         # Project documentation & overview
+```
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
